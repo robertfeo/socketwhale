@@ -1,9 +1,8 @@
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <title className="text-">Socket.io Demo</title>
-
-    </main>
+    <div className="flex flex-col items-center m-10 min-h-svh">
+      <h1 className="text-pretty text-zinc-600 text-lg">Welcome to Socket.io Demo</h1>
+    </div>
   );
 }
